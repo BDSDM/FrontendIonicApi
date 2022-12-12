@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Writers</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item button *ngFor="let a of writers">
+      <ion-label>
+        {{a.author}}
+
+      </ion-label>
+      <ion-label>
+        
+        {{a.message}}
+
+      </ion-label>
+    </ion-item>
+  </ion-list>
+
+</ion-content>
